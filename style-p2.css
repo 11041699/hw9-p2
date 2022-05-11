@@ -1,0 +1,54 @@
+
+/* now lets add some hover features for our images */
+
+body {background-color: #9bcdff;}
+header { 
+ display:block;
+ margin: 20px 10px 80px 10px; 
+}
+
+ol#menu li  {
+	list-style: none;
+	position: relative;
+	float: left;
+}
+
+ol#menu li a {
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	margin-left: 100px;
+	float: left;
+	width: 137px;
+	height: 91px;
+	background-color: #2549f3;
+}
+
+
+
+ol#menu li#tl a:hover {
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	transform: scale(1.25);
+}
+
+ol#menu li#pl a:hover {
+
+	top: 25px;
+	left: 70px;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+	opacity: 0.4;
+}
+
+
+ol#menu li#rl a:hover  {
+	left: 60px;
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
