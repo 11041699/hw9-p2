@@ -57,7 +57,7 @@ section {
 }
 
 
-#rivals ul.gallery li a:hover img, a:focus img{
+#trophies ul.gallery li a:hover img, a:focus img{
 	-webkit-transform: scale(1.5) skew(5deg, 30deg);
 	-moz-transform: scale(1.5) skew(5deg, 30deg);
 	-o-transform: scale(1.5) skew(50deg, 30deg);
